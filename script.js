@@ -1,4 +1,4 @@
-const bizzFuzz = () => {
+const fizzBuzz = () => {
     for (let i = 0; i < 51; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("FizzBuzz");
@@ -11,4 +11,4 @@ const bizzFuzz = () => {
         }
     }
 }
-bizzFuzz();
+fizzBuzz();
