@@ -1,23 +1,22 @@
-#game-container {
+.game-container {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     gap: 20px;
 }
-
-.button-container {
+#ball-container {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
 }
-
-#result-container {
+#result {
     font-size: 24px;
     font-weight: bold;
+    align-items: block;
+    border-color: gray;
+    gap: 10px;
 }
-
-#result {
-    width: 500px;
+#shake-button {
 }
