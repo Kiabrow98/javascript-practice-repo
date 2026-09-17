@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <script src="coinFlip.js" defer></script>
+    <title>My First Webpage</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="diceRoll.js" defer></script>
 </head>
 <body>
-    <div id="coin-flip-container">
-        <input id="coin-flip-input" type="text" readonly>
-        <button id="coin-button">Flip</button>
+
+    <h1 id="dice-title">Dice Rolller</h1>
+    <div id="game-container">
+        <button id="roll-button">Roll</button>
+        <input id="bonus-point" type="text" placeholder="Enter Bonus Points">
+        <input id="final-score" type="text" readonly>
     </div>
+
 </body>
 </html>

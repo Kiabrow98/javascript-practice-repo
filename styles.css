@@ -1,30 +1,47 @@
-#coin-flip-container {
+#dice-title {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+}
+#game-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
     gap: 20px;
 }
 
-#coin-flip-input {
-    border-radius: 10px;
-    height: 30px;
-    font-weight: bold;
-}
-
-#coin-button {
-    height: 25px;
-    width: 50px;
+#roll-button {
+    height: 50px;
+    width: 100px;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-#coin-button:hover {
+#roll-button:hover {
     box-shadow: 3px 4px 5px black;
+    cursor: pointer;
+}
+#roll-button:active {
+    box-shadow: none;
 }
 
-#coin-button:active {
-    box-shadow: none;
+#bonus-point {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+#final-score {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid;
 }
