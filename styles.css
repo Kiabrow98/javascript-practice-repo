@@ -1,20 +1,30 @@
-.game-container {
+#coin-flip-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     gap: 20px;
 }
-#ball-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#result {
-    font-size: 24px;
+
+#coin-flip-input {
+    border-radius: 10px;
+    height: 30px;
     font-weight: bold;
-    align-items: block;
-    border-color: gray;
-    gap: 10px;
+}
+
+#coin-button {
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#coin-button:hover {
+    box-shadow: 3px 4px 5px black;
+}
+
+#coin-button:active {
+    box-shadow: none;
 }
