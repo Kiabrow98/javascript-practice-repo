@@ -1,62 +1,38 @@
-#dice-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body{
+    background-color: lightblue;
 }
-#game-container {
+#quote-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: 100vh;
     gap: 20px;
 }
 
-#roll-button {
+#quote-input {
     height: 50px;
-    width: 100px;
+    width: 1000px;
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    border-style: solid;
+    border-color: pink;
+    color: brown;
 }
 
-#roll-button:hover {
-    box-shadow: 3px 4px 5px black;
-    cursor: pointer;
-}
-#roll-button:active {
-    box-shadow: none;
-}
-
-#bonus-point {
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
-    border: solid;
-    font-weight: bold;
-    font-size: 20px;
-    color: black;
-}
-#final-score {
-    height: 40px;
-    width: 200px;
-    border-radius: 10px;
-    border: solid;
-}
-
-#clear-button {
+#quote-button {
     height: 25px;
-    width: 50px;
+    width: 150px;
     border-radius: 10px;
-    font-weight: bold;
-    font-size: 10px;
+    border-style: solid;
+    border-color: purple;
+    background-color: pink;
+    color: white;
 }
-#clear-button:hover {
+
+#quote-button:hover {
     box-shadow: 3px 4px 5px black;
     cursor: pointer;
 }
-#clear-button:active {
+#quote-button:active {
     box-shadow: none;
 }
