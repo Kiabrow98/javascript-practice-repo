@@ -45,3 +45,18 @@
     border-radius: 10px;
     border: solid;
 }
+
+#clear-button {
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 10px;
+}
+#clear-button:hover {
+    box-shadow: 3px 4px 5px black;
+    cursor: pointer;
+}
+#clear-button:active {
+    box-shadow: none;
+}

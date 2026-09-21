@@ -1,6 +1,8 @@
 const findRollButton = document.querySelector("#roll-button");
-findRollButton.addEventListener("click", rollDice);
-
+const findFinalScoreInput = document.querySelector("#final-score");
+const findClearButton = document.querySelector("#clear-button");
+findRollButton.addEventListener("click", diceInput);
+findClearButton.addEventListener("click", zeroClearButton);
 function rollDice () {
     const randomNumber = Math.floor(Math.random() * 6);
     if(randomNumber === 0) {
@@ -16,4 +18,12 @@ function rollDice () {
     } else {
         return "6"
     }
+}
+
+function diceInput () {
+    findFinalScoreInput.value = `${rollDice()}`;
+}
+
+function zeroClearButton () {
+    findFinalScoreInput.value = `${"0"}`;
 }
